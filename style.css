@@ -19,9 +19,10 @@ header {
 	font-weight: bold;
 
 	/* Border */
-	border-radius: 10px;
+	border-radius: 5px;
 	border-bottom-left-radius: 0px;
-	border-width: 2px;
+	border-top-right-radius: 0px;
+	border-width: 1px;
 	border-style: solid;
 	border-color: black;
 }
@@ -46,20 +47,26 @@ nav {
 	height: 200px;
 
 	/* Border */
-	border-radius: 10px;
+	border-radius: 5px;
 	border-top-right-radius: 0px;
 	border-top-left-radius: 0px;
-	border-width: 2px;
+	border-width: 1px;
 	border-style: solid;
 	border-color: black;
 	border-top-width: 0px;
 }
 	
 th.th_menu {
+	background-color: #A8A8A8;	
+
 	/* Alignment */
 	width: 150px;
 	text-align: center;
-	height: 15px;
+	height: 20px;
+
+	/* Border */
+	border: 1px;
+	border-style: solid;
 }
 
 div.indexContent {
@@ -68,10 +75,11 @@ div.indexContent {
 
 	/* Alignment */
 	position: static;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	margin-left: 200px;
 	margin-right: 200px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+
 	width: auto;
 	height: auto;
 	padding-right: 50px;
@@ -80,8 +88,9 @@ div.indexContent {
 	right: 200px;
 
 	/* Border */
-	border-width: 2px;
-	border-radius: 10px;
+	border: 1px;
+	border-radius: 5px;
+	border-top-right-radius: 0px;
 	border-style: solid;
 	border-color: black;
 
@@ -102,8 +111,9 @@ footer {
 	font-size: 20px;
 
 	/* Border */
-	border-radius: 10px;
-	border-width: 2px;
+	border-radius: 5px;
+	border-width: 1px;
+	border-top-right-radius: 0px;
 	border-style: solid;
 	border-color: black;
 }
