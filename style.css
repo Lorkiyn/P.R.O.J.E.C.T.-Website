@@ -1,0 +1,46 @@
+html {
+	background-color: #717CC4;
+}
+
+header {
+	height: 150px;
+	background-color: red;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	text-align: center;
+	font-family: helvetica;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+body {
+
+}
+
+nav {
+	position: fixed;
+	z-index: 999;
+	width: 150px;
+	background-color: green;
+	height: 10;
+}
+
+th.th_menu {
+	width: 150px;
+	text-align: center;
+	height: 15px;
+}
+
+div.indexContent {
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+footer {
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	height: 2em;
+	bottom: 0px;
+	font-size: 20px;
+}
