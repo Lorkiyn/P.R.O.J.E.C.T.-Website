@@ -6,12 +6,13 @@ html {
 
 header {
 	/* Background */
-	background-color: orange;
 	background-image: url(img/header_wave.jpg);
 	background-size: cover;
 
 	/* Alignment */
 	height: 150px;
+	margin-left: 200px;
+	margin-right: 200px;
 	padding-top: 30px;
 	text-align: center;
 
@@ -24,11 +25,11 @@ header {
 	/* Border */
 	border-radius: 5px;
 	border-bottom-left-radius: 0px;
-	border-top-right-radius: 0px;
-	border-width: 1px;
-	border-style: solid;
-	border-color: black;
+	border-bottom-right-radius: 0px;
+	border: 1px solid black;
+
 }
+
 h1 {
 	color: #1762F2;
 	font-style: italic;
@@ -45,23 +46,41 @@ h2 {
 
 nav {
 	/* Background */
-	background-color: orange;
+	background-color: #D3D3D3;
 
 	/* Alignment */
+	margin-right: 0px;
+	margin-left: 47px;
 	position: absolute;
 	z-index: 999;
 	width: 150px;
 	height: 200px;
 
+	/* Style */
+	under
+
 	/* Border */
+	border-right: 0px;
+	border: 2px;
 	border-radius: 5px;
-	border-top-right-radius: 0px;
-	border-top-left-radius: 0px;
-	border-width: 1px;
 	border-style: solid;
 	border-color: black;
-	border-top-width: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	
 }
+
+nav a:focus {
+}
+nav a:hover {
+	background-color: #f5f5f5;
+}
+nav a:active {
+	color: black;
+	background-color: #f5f5f5;
+	font-weight: bold;
+}
+
 	
 th.th_menu {
 	background-color: #A8A8A8;	
@@ -71,6 +90,8 @@ th.th_menu {
 	text-align: center;
 	height: 20px;
 
+
+text-decoration:none;
 	/* Border */
 	border: 1px;
 	border-style: solid;
@@ -78,12 +99,10 @@ th.th_menu {
 
 div.indexContent {
 	/* Background */
-	background-color: blue;
+	background-color: #D3D3D3;
 
 	/* Alignment */
 	position: static;
-	margin-top: 30px;
-	margin-bottom: 30px;
 	margin-left: 200px;
 	margin-right: 200px;
 
@@ -95,11 +114,7 @@ div.indexContent {
 	right: 200px;
 
 	/* Border */
-	border: 1px;
-	border-radius: 5px;
-	border-top-right-radius: 0px;
-	border-style: solid;
-	border-color: black;
+	border: 1px solid black;
 
 }
 
@@ -114,22 +129,16 @@ iframe.contentDisplay {
 	scroll-behavior: auto;
 }
 
-div.surferpic {
-	position: absolute;
-    top: 0; bottom:0; left: 0; right:0;
-    margin: auto;
-}
-
-
-
 footer {
 	/* Background */
-	background-color: orange;
+	background-color: #D3D3D3;
 
 	/* Alignment */
 	position: inherit;
 	text-align: center;
-	width: 100%;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-top: 0px;
 	height: 2em;
 	bottom: 0px;
 
@@ -138,10 +147,10 @@ footer {
 
 	/* Border */
 	border-radius: 5px;
-	border-width: 1px;
+	border: 1px solid black;
 	border-top-right-radius: 0px;
-	border-style: solid;
-	border-color: black;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
 }
 p.footer {
 	margin-top: 10px;
