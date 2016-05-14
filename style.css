@@ -1,46 +1,109 @@
 html {
-	background-color: #717CC4;
+	/* Background */
+	background-image: linear-gradient(to top, #717CC4 0%, #003399 30%);
+	background-image: linear-gradient(to bottom, #717CC4 0%, #003399 70%);
 }
 
 header {
+	/* Background */
+	background-color: orange;
+
+	/* Alignment */
 	height: 150px;
-	background-color: red;
-	margin-bottom: 20px;
 	padding-top: 30px;
 	text-align: center;
+
+	/* Font */
 	font-family: helvetica;
 	font-size: 30px;
 	font-weight: bold;
+
+	/* Border */
+	border-radius: 10px;
+	border-bottom-left-radius: 0px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
 }
 
 body {
 
 }
 
-nav {
-	position: fixed;
-	z-index: 999;
-	width: 150px;
-	background-color: green;
-	height: 10;
+h2 {
+	/* Font */
+	text-align: center;
 }
 
+nav {
+	/* Background */
+	background-color: orange;
+
+	/* Alignment */
+	position: absolute;
+	z-index: 999;
+	width: 150px;
+	height: 200px;
+
+	/* Border */
+	border-radius: 10px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	border-top-width: 0px;
+}
+	
 th.th_menu {
+	/* Alignment */
 	width: 150px;
 	text-align: center;
 	height: 15px;
 }
 
 div.indexContent {
-	padding-right: 200px;
-	padding-left: 200px;
+	/* Background */
+	background-color: blue;
+
+	/* Alignment */
+	position: static;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: auto;
+	height: auto;
+	padding-right: 50px;
+	padding-left: 50px;
+	left: 200px;
+	right: 200px;
+
+	/* Border */
+	border-width: 2px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: black;
+
 }
 
 footer {
-	position: fixed;
+	/* Background */
+	background-color: orange;
+
+	/* Alignment */
+	position: inherit;
 	text-align: center;
 	width: 100%;
 	height: 2em;
 	bottom: 0px;
+
+	/* Font */
 	font-size: 20px;
+
+	/* Border */
+	border-radius: 10px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
 }
