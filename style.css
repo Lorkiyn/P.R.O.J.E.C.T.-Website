@@ -7,6 +7,8 @@ html {
 header {
 	/* Background */
 	background-color: orange;
+	background-image: url(img/header_wave.jpg);
+	background-size: cover;
 
 	/* Alignment */
 	height: 150px;
@@ -17,6 +19,7 @@ header {
 	font-family: helvetica;
 	font-size: 30px;
 	font-weight: bold;
+	font-color: #1762F2;
 
 	/* Border */
 	border-radius: 5px;
@@ -26,9 +29,13 @@ header {
 	border-style: solid;
 	border-color: black;
 }
+h1 {
+	color: #1762F2;
+	font-style: italic;
+}
 
 body {
-
+	background-color: none;
 }
 
 h2 {
@@ -81,7 +88,7 @@ div.indexContent {
 	margin-right: 200px;
 
 	width: auto;
-	height: auto;
+	height: 800px;
 	padding-right: 50px;
 	padding-left: 50px;
 	left: 200px;
@@ -95,6 +102,25 @@ div.indexContent {
 	border-color: black;
 
 }
+
+iframe.contentDisplay {
+
+	background-color: none;
+	color: transparent;
+	border: 0;
+	width: 100%;
+	height: 100%;
+	padding-bottom: auto;
+	scroll-behavior: auto;
+}
+
+div.surferpic {
+	position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
+
+
 
 footer {
 	/* Background */
@@ -116,4 +142,13 @@ footer {
 	border-top-right-radius: 0px;
 	border-style: solid;
 	border-color: black;
+}
+p.footer {
+	margin-top: 10px;
+}
+
+img.surfer {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
 }
