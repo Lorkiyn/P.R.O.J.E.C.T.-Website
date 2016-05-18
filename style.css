@@ -19,10 +19,10 @@ header {
 	right: 0; 
 	left: 0;
 	box-sizing: border-box;
-	max-width: 1500px;
+	max-width: 3000px;
 	min-width: 980px;
 	min-height: 257px;
-	max-height: 257px;
+	max-height: 500px;
 	object-fit: contain;
 
 	/* Font */
@@ -69,7 +69,7 @@ ul {
 	/* Alignment */
 	margin-top: inherit;
 	padding: 0;
-	width: 202px;
+	width: 200px;
 	height: auto;
 	float: left;
 	position: absolute;
@@ -80,6 +80,7 @@ ul {
 	/* List */
 	list-style-type: none;
 }
+
 
 li a {
 	/* Style */
@@ -100,6 +101,7 @@ li a:hover {
 }
 
 li a:focus {
+	/* Style */
 	font-weight: bold;
 	background-color: #555;
 	color: #00FFFF;
@@ -115,30 +117,18 @@ div.indexContent {
 	/* Alignment */
 	margin-left: 200px;
 	margin-right: 200px;
-
+	padding-right: 40px;
+	padding-left: 40px;
 
 	width: auto;
 	height: 1200px;
-	padding-right: 40px;
-	padding-left: 40px;
-	left: 200px;
-	right: 200px;
 
 	/* Border */
 	border-right: 2px solid black;
+	border-left: 2px solid black;
 
 }
 
-div.left_bar {
-	background-color: #;
-	width: 200px;
-	height: 942px;
-	margin-top: 258px;
-	position: absolute;
-
-	border-right: 2px solid black;
-
-}
 
 iframe.contentDisplay {
 
@@ -166,7 +156,6 @@ footer {
 	text-align: center;
 	left: 0;
 	right: 0;
-	top: in;
 
 	height: 1.8em;
 	margin-bottom: 0;
