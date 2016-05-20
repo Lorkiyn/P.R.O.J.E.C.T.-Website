@@ -10,7 +10,6 @@ $(document).ready(function() {
 
 		$(this).find("a").addClass("markiert");
 		$(this).addClass("markiert");
-		$(this).css('color', 'red');
 
 	});
 });

@@ -67,7 +67,7 @@ header {
 	left: 0;
 	box-sizing: border-box;
 	max-width: 3000px;
-	min-width: 980px;
+	min-width: 400px;
 	min-height: 257px;
 	max-height: 500px;
 	object-fit: contain;
@@ -81,28 +81,6 @@ header {
 	/* Border */
 	border-bottom: 2px solid black;
 
-
-}
-/*-------------------------------------------------*/
-
-
-/* HEADERS ----------------------------------------*/
-h1 {
-	color: #1762F2;
-	font-style: italic;
-
-}
-
-h2 {
-	/* Font */
-	text-align: center;
-
-}
-/*-------------------------------------------------*/
-
-
-/* BODY -------------------------------------------*/
-body {
 
 }
 /*-------------------------------------------------*/
@@ -188,10 +166,6 @@ iframe.contentDisplay {
 	overflow: hidden;
 	padding-bottom: auto;
 
-	/* Border */
-	border: 0;
-
-
 }
 /*-------------------------------------------------*/
 
@@ -219,7 +193,7 @@ footer {
 }
 
 p.footer {
-	margin-top: 5px;
+	margin-top: 8px;
 }
 /*-------------------------------------------------*/
 
