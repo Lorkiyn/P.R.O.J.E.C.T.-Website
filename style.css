@@ -24,8 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
@@ -37,8 +36,7 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
@@ -138,14 +136,13 @@ li a {
 	padding: 8px 0 8px 16px;
 	text-decoration: none;
 	font-weight: bold;
-
 }
 
-.markiert {
+ul .markiert {
 	/* Style */
 	background-color: #555;
 	font-weight: bold;
-	color: #00FFFF;
+	color: #00FFFF; 
 
 }
 
@@ -157,12 +154,7 @@ li a:hover {
 
 }
 
-li a:focus {
-	/* Style */
-	font-weight: bold;
-	background-color: #555;
-	color: #00FFFF;
-}
+
 /*-------------------------------------------------*/
 
 
@@ -178,6 +170,7 @@ div.indexContent {
 	padding-left: 40px;
 
 	width: auto;
+	min-width: 500px;
 	height: 1200px;
 
 	/* Border */
