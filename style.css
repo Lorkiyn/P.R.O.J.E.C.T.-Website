@@ -149,14 +149,13 @@ div.indexContent {
 
 	width: auto;
 	min-width: 500px;
-	height: 1200px;
+	height: 1000px;
 
 	/* Border */
 	border-right: 2px solid black;
 	border-left: 2px solid black;
 
 }
-
 
 iframe.contentDisplay {
 
@@ -167,6 +166,7 @@ iframe.contentDisplay {
 	padding-bottom: auto;
 
 }
+
 /*-------------------------------------------------*/
 
 

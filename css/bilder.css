@@ -4,6 +4,22 @@ img {
 	box-shadow: 3px 3px 3px black;
 }
 
+div.youtube {
+	position: relative;
+	float: right;
+	padding-right: 80px;
+	margin-top: -170px;
+	margin-right: 150px;
+}
+
+
+img.youtube {
+	border: 0px;
+	box-shadow: none;
+	width: 230px;
+	height: 230px;
+}
+
 div.surferpic {
 	text-align: center;
 

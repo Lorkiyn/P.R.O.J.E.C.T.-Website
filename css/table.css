@@ -1,0 +1,25 @@
+.table_header {
+	padding-top: 70px;
+	text-align: left;
+}
+
+tr.topic {
+	background-color: #00FFFF;
+}
+
+tr:nth-child(even) {
+	background-color: #ACBDBF;
+}
+tr:nth-child(odd) {
+	background-color: #69969C;
+}
+tr:hover {
+	background-color: #555;
+	color: #00FFFF;
+}
+
+.veranstaltungen {
+	width: 900px;
+	margin-top: 10px;
+	border: 1px solid black;
+}
