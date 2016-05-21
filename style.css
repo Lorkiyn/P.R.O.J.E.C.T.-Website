@@ -79,7 +79,7 @@ header {
 	font-color: #1762F2;
 
 	/* Border */
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 
 
 }
@@ -87,36 +87,39 @@ header {
 
 
 /* MENU -------------------------------------------*/
+
 ul {
-	/* Background */
-	background-color: white;
-
 	/* Alignment */
-	margin-top: inherit;
-	padding: 0;
-	width: 200px;
-	height: auto;
-	float: left;
-	position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 
-	/* Border */
-	border-bottom: 2px solid black;
+    /* Border */
+    border-bottom: 1px solid black;
 
-	/* List */
-	list-style-type: none;
+    /* Style */
+    text-align: center;
+
 }
 
+li {
+	/* Alignment */
+    display: inline;
+
+}
 
 li a {
-	/* Style */
-	display: block;
-	color: #000;
-	padding: 8px 0 8px 16px;
-	text-decoration: none;
-	font-weight: bold;
+	/* Alignment */
+    display: inline-block;
+    color: white;
+    padding: 13px 16px;
+    text-decoration: none;
+
 }
 
-ul .markiert {
+ul .active {
 	/* Style */
 	background-color: #555;
 	font-weight: bold;
@@ -126,7 +129,6 @@ ul .markiert {
 
 li a:hover {
 	/* Style */
-	font-weight: bold;
 	background-color: #555;
 	color: #00FFFF;
 
@@ -152,14 +154,13 @@ div.indexContent {
 	height: 1200px;
 
 	/* Border */
-	border-right: 2px solid black;
-	border-left: 2px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
 
 }
 
 
 iframe.contentDisplay {
-
 	/* Alignment */
 	width: 100%;
 	min-height: 100%;
@@ -173,7 +174,7 @@ iframe.contentDisplay {
 /* FOOTER -----------------------------------------*/
 footer {
 	/* Background */
-	background-color: #555;
+	background-color: #333;
 
 	/* Alignment */
 	position: inherit;
@@ -188,12 +189,13 @@ footer {
 	font-size: 20px;
 
 	/* Border */
-	border-top: 2px solid black;
+	border-top: 1px solid black;
 
 }
 
 p.footer {
 	margin-top: 8px;
+	color: white;
 }
 /*-------------------------------------------------*/
 
