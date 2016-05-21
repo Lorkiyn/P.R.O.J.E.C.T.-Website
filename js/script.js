@@ -3,13 +3,13 @@ $(document).ready(function() {
 	$("li").click(function() {
 
 		$("li").each(function(item) {
-			$(this).removeClass("markiert");
-			$(this).find("a").removeClass("markiert");
+			$(this).removeClass("active");
+			$(this).find("a").removeClass("active");
 
 		});
 
-		$(this).find("a").addClass("markiert");
-		$(this).addClass("markiert");
+		$(this).find("a").addClass("active");
+		$(this).addClass("active");
 
 	});
 });

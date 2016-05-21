@@ -68,8 +68,7 @@ header {
 	box-sizing: border-box;
 	max-width: 3000px;
 	min-width: 400px;
-	min-height: 257px;
-	max-height: 500px;
+	height: 257px;
 	object-fit: contain;
 
 	/* Font */
@@ -116,7 +115,7 @@ li a {
 	font-weight: bold;
 }
 
-ul .markiert {
+ul .active {
 	/* Style */
 	background-color: #555;
 	font-weight: bold;
@@ -126,7 +125,6 @@ ul .markiert {
 
 li a:hover {
 	/* Style */
-	font-weight: bold;
 	background-color: #555;
 	color: #00FFFF;
 
@@ -186,6 +184,7 @@ footer {
 
 	/* Font */
 	font-size: 20px;
+	color: white;
 
 	/* Border */
 	border-top: 2px solid black;
