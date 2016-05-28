@@ -1,17 +1,19 @@
 .table_header {
-	padding-top: 70px;
+	padding-top: 0px;
 	text-align: left;
 }
 
-tr.topic {
-	background-color: #00FFFF;
+th.topic {
+	background-color: #674ABC;
+	color: #00FFFF;
+	font-weight: bold;
 }
 
 tr:nth-child(even) {
-	background-color: #ACBDBF;
+	background-color: #BAABE7;
 }
 tr:nth-child(odd) {
-	background-color: #69969C;
+	background-color: #BAABE7;
 }
 tr:hover {
 	background-color: #555;
@@ -19,7 +21,7 @@ tr:hover {
 }
 
 .veranstaltungen {
-	width: 900px;
+	width: 1100px;
 	margin-top: 10px;
 	border: 1px solid black;
 }
