@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 		});
 
-		$(".active").click(function(){
+		$(".home active").click(function(){
         var newHeight = $(".input-height").val();
         $(".indexContent").height("300");
 
@@ -28,13 +28,13 @@ $(document).ready(function() {
 
     	$(".rules").click(function(){
         var newHeight = $(".input-height").val();
-        $(".indexContent").height("500");
+        $(".indexContent").height("600");
 
     	});
 
     	$(".windsurf").click(function(){
         var newHeight = $(".input-height").val();
-        $(".indexContent").height("750");
+        $(".indexContent").height("900");
 
     	});
 

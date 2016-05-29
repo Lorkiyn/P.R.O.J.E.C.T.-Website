@@ -121,6 +121,14 @@ p {
 
 }
 
+.de_bayernpic {
+	font-style: italic;
+}
+
+.rules_txt {
+	font-style: italic;
+}
+
 .youtube {
 	/* DIV */
 	float: right;
@@ -174,6 +182,20 @@ p {
 	box-shadow: none;
 	width: 300px;
 
+}
+
+.wc_bayern {
+	/* DIV */
+	float: left;
+	position: static;
+	margin-top: 30px;
+
+	/* IMG */
+	border: 0px;
+	box-shadow: none;
+	height: 200px;
+	width: 1030px;
+	background-size: cover;
 }
 
 img {
