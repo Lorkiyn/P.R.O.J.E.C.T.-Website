@@ -5,14 +5,8 @@ $(document).ready(function() {
 		$("li").each(function(item) {
 			$(this).removeClass("active");
 			$(this).find("a").removeClass("active");
-
+			$(".indexContent").height("750");
 		});
-
-		$(".home active").click(function(){
-        var newHeight = $(".input-height").val();
-        $(".indexContent").height("300");
-
-    	});
 
 		$(".news").click(function(){
         var newHeight = $(".input-height").val();
