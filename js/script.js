@@ -40,7 +40,7 @@ $(document).ready(function() {
 
     	$(".picture").click(function(){
         var newHeight = $(".input-height").val();
-        $(".indexContent").height("1050");
+        $(".indexContent").height("1100");
 
     	});
 

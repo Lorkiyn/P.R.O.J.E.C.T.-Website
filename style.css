@@ -129,6 +129,7 @@ p {
 	font-style: italic;
 }
 
+
 .youtube {
 	/* DIV */
 	float: right;
@@ -198,6 +199,49 @@ p {
 	background-size: cover;
 }
 
+img.segel {
+	/* DIV */
+	float: left;
+	position: static;
+	margin-top: 20px;
+
+	/* IMG */
+	border-right: 30px;
+	box-shadow: 1px;
+	width: 300px;
+
+}
+
+img.brett {
+	/* DIV */
+	float: left;
+	position: relative;
+	margin-top: 150px;
+	margin-left: -300px;
+
+	/* IMG */
+	border-right: 30px;
+	box-shadow: 1px;
+	width: 300px;
+	height: 250px;
+
+}
+
+img.neopren {
+	/* DIV */
+	float: left;
+	position: relative;
+	margin-top: 160px;
+	margin-left: -300px;
+
+	/* IMG */
+	border-right: 30px;
+	box-shadow: 1px;
+	width: 300px;
+	height: 250px;
+
+}
+
 img {
 	border:1px solid #021a40;
 	border-radius: 5px;
@@ -212,6 +256,27 @@ div.history_txt2 {
 div.img {
 	text-align: center;
 
+}
+
+div.bilder {
+	margin-top: 20px;
+	margin-left: 310px;
+	padding-left: 30px;
+	width: 500px;
+}
+
+div.bilder_brett {
+	margin-top: 150px;
+	margin-left: 310px;
+	padding-left: 30px;
+	width: 500px;
+}
+
+div.bilder_neopren {
+	margin-top: 160px;
+	margin-left: 310px;
+	padding-left: 30px;
+	width: 500px;
 }
 
 #script {
