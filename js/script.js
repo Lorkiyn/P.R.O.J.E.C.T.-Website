@@ -32,12 +32,6 @@ $(document).ready(function() {
 
     	});
 
-    	$(".story").click(function(){
-        var newHeight = $(".input-height").val();
-        $(".indexContent").height("600");
-
-    	});
-
     	$(".picture").click(function(){
         var newHeight = $(".input-height").val();
         $(".indexContent").height("1100");
